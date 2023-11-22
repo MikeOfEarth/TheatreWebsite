@@ -1,0 +1,126 @@
+.menu{
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 2
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    padding-left: 50px;
+    display: flex;
+}
+
+
+#background{
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 650px;
+}
+
+#feature{
+    font-size: 500%;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: unset;
+    text-wrap: nowrap;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+    background-color: white;
+    color:black;
+}
+
+#dateBox{
+    background-color: rgb(243, 243, 243);
+    border: lightgray 1px solid;
+    margin-bottom: 20px;
+    padding-left: 3%;
+    padding-top: 2px;
+    text-wrap: nowrap;
+    width:65%;
+    height:22px;
+}
+
+.il{
+    display: inline;
+}
+
+.ticketDetails{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}   
+
+.button{
+    padding:10px;
+    color: white;
+    background-color: goldenrod;
+    border: rgb(189, 143, 96) 2px solid;
+}
+
+.line{
+    width: 70%;
+    border: 0px;
+    border-top: 2px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.ftCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: flex-start;
+}   
+
+.ftSec{
+    display: flex;
+    flex-direction: column;
+}
+
+#map{
+    width:30%;
+    height:20%;
+}
+
+footer h2{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+
+footer img{
+    padding-bottom: 20px;
+    width: 30px;
+    height: 40px;
+}
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+}
